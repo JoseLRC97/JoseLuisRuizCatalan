@@ -1,0 +1,381 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #1F1B1C;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    border: green inset;
+}
+
+#navbar {
+ float: right;
+ text-align: center;
+}
+
+#navbar ul {
+    list-style: none;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#logo {
+    width: 10%;
+    float: left;
+    margin-right: 200px;
+}
+
+#logo img {
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: -10px;
+    padding-bottom: 8px;
+}
+
+#navbar ul li {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: green;
+    text-decoration: none;
+}
+
+#separatorSM, #separatorEs, #separatorCo, #separatorEx, #separatorEst {
+    background-image: url(images/separatorPAG.jpg);
+    box-sizing: border-box;
+    min-height: 7vh;
+    height: 7vh;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+}
+
+.divPag {
+    box-sizing: border-box;
+    min-height: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+#divIni .presentation {
+    color: white;
+    position: relative;
+    margin-left: 7%;
+}
+
+#divIni .presentation h1 {
+    font-size: 7em;
+    word-spacing: 2.5em;
+}
+
+#divIni .presentation h2 {
+    font-size: 3em;
+    margin-left: 15%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.headerPag_1 {
+    position: relative;
+    background-color: #1F1B1C;
+    width: 37%;
+    height: 18%;
+    padding: 7px;
+    left: 32%
+}
+
+.headerPag_2 {
+    background-color: #1F1B1C;
+    width: 97%;
+    height: 92%;
+    padding: 5px;
+    padding-bottom: 0px;
+    border:inset green;
+    text-align: center;
+    font-size: 3em;
+}
+
+#divCo .headerPag_1 {
+    width: 50%;
+    height: 18%;
+    left: 24%
+}
+
+#divCo .headerPag_1 .headerPag_2 {
+    width: 97.5%;
+}
+
+#divEx .headerPag_1 {
+    width: 40%;
+    height: 18%;
+    left: 30%
+}
+
+.bodyBOX1 {
+    position: relative;
+    background-color: #1F1B1C;
+    width: 45%;
+    height: 55%;
+    padding: 7px;
+    padding-bottom: 0px;
+    top: 10%;
+}
+
+#divSM .bodyBOX1 {
+    float: left;
+    left: 2%;
+}
+
+.divIcon {
+    position: relative;
+    background-color: #1F1B1C;
+    width: 20%;
+    height: 73%;
+    padding: 7px;
+    padding-bottom: 9px; 
+    top: 1.5%;
+    float: left;
+    left: 2.5%;
+}
+
+.bodyBOX2 {
+    background-color: #1F1B1C;
+    width: 97%;
+    height: 92%;
+    padding: 5px;
+    border:inset green;
+}
+
+.divIcon .bodyBOX2 {
+    padding: 0px;
+    padding-bottom: 5px;
+    border-bottom: transparent;
+    height: 98.7%;
+}
+
+.intoIcon {
+    padding-bottom: 5%;
+    border-bottom: inset green;
+    vertical-align: middle;
+}
+
+.divIcon .bodyBOX2 .bodyP {
+    text-indent: 0px;
+    font-size: larger;
+    text-align: center;
+}
+
+.divIcon .bodyBOX2 .bodyP img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+.headerP {
+    color: green;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-style: unset;
+    text-decoration: underline;
+}
+
+.bodyP {
+    margin-top: 15px;
+    margin-left: 7px;
+    color: white;
+    text-indent: 40px;
+    font-size: medium;
+}
+
+#divEs .bodyBOX1 {
+    float: right;
+    right: 2%;
+}
+
+#divCo .bodyBOX1 {
+    float: left;
+    width: 10%;
+    height: 20%;
+    left: 2%;
+    padding-bottom: 3px;
+    padding-right: 8px;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+#divCo .bodyBOX1 .bodyBOX2 {
+    padding: 0px;
+}
+
+.bodyBOX2 img {
+    width: 90%;
+}
+
+#divEx .bodyBOX1 {
+    top: 5%;
+    left: 6.5%;
+    height: 63%;
+    float: left;
+}
+
+#divEx .bodyBOX1 .bodyBOX2 {
+    height: 94%;
+}
+
+#divEx li {
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+    font-size: medium;
+}
+
+#divEs img {
+    float: left;
+    position: relative;
+    left : 2%;
+    top: 10%;
+}
+
+#divEst .bodyBOX1 {
+    left: 27.5%;
+}
+#divEst .bodyBOX1 .bodyBOX2 .headerP {
+    font-size: 2em;
+}
+#divEst li {
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+    font-size: medium;
+}
+
+#contact {
+    background-color: #1F1B1C;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#contact h3 {
+    text-decoration: underline;
+    margin-left: 5%;
+    position: relative;
+    color: green;
+}
+
+#contact h3 img {
+    width: 3%;
+    vertical-align: middle;
+}
+
+#contact h3 span {
+    margin-left: 20%;
+}
+
+#contact div {
+    text-align: center;
+    margin-top: 1%;
+    position: relative;
+    left: 15%;
+    width: 70%;
+}
+
+.Photo {
+    float: left;
+    left: 3%;
+    position: relative;
+    background-color: #1F1B1C;
+    width: 28%;
+    height: 41%;
+    padding: 7px;
+    padding-bottom: 0px;
+    top: 18%;
+}
+
+.Photo2 {
+    position: relative;
+    float: right;
+    background-color: #1F1B1C;
+    left: -0.7%; 
+    width: 24%;
+    height: 26.5%;
+    padding: 7px;
+    padding-bottom: 0px;
+    top: 23%;
+    padding-bottom: 10px;
+}
+
+.Photo .bodyBOX2 {
+    width: 95.5%;
+}
+
+.Photo2 .bodyBOX2 {
+    width: 95.5%;
+}
+
+.Photo .bodyBOX2 img {
+    width: 49%;
+    float: left;
+}
+
+.Photo2 .bodyBOX2 img {
+    width: 100%;
+}
+
+#divEx .Photo {
+    top: 15%;
+    width: 20%;
+    height: 44%;
+}
+
+#divEx .Photo .bodyBOX2 {
+    width: 94%;
+}
+
+#divEx .Photo .bodyBOX2 img {
+    width: 100%;
+}
+
+#contact div h5 {
+    color: green;
+    font-style: italic;
+}
+
+#contact h3 span a {
+    color: green;
+}
+
+@keyframes AppearText{
+    from{color: transparent;}
+    to{color: white;}
+}
+
+.anim-AppearText {
+    animation: AppearText 4s steps(500) 0s 1 normal both;
+}
+
+@keyframes TypeWriter{
+    from{width: 0;}
+    to{width: 10em;}
+}
+
+.anim-TypeWriter{
+    animation: TypeWriter 2s steps(100) 4s 1 normal both;
+}
+
+.anim-TypeWriterInfi {
+    animation: TypeWriter 1s steps(1) 1s infinite normal both;
+}
