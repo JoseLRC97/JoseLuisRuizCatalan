@@ -62,9 +62,9 @@ header {
 
 .divPag {
     box-sizing: border-box;
-    min-height: 100vh;
+    min-height: 626px;
     height: 100vh;
-    max-height: 100vh;
+    max-height: 626px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
