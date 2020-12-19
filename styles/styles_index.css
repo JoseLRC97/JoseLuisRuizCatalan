@@ -111,6 +111,7 @@ header {
     border:inset green;
     text-align: center;
     font-size: 3em;
+    overflow: hidden;
 }
 
 #divCo .headerPag_1 {
@@ -311,8 +312,6 @@ header {
     background-color: #1F1B1C;
     width: 28%;
     height: 41%;
-    max-width: 391.717px;
-    max-height: 263.65px;
     padding: 7px;
     padding-bottom: 3px;
     top: 18%;
@@ -347,6 +346,11 @@ header {
 #divSM .Photo .bodyBOX2 img {
     max-width: 179.75px;
     max-height: 235.667px;
+}
+
+#divSM .Photo {
+    max-width: 391.717px;
+    max-height: 263.65px;
 }
 
 .Photo2 .bodyBOX2 img {
