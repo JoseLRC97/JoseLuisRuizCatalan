@@ -98,13 +98,14 @@ header {
     width: 37%;
     height: 18%;
     padding: 7px;
-    left: 32%
+    padding-bottom: 3px;
+    left: 32%;
 }
 
 .headerPag_2 {
     background-color: #1F1B1C;
     width: 97%;
-    height: 92%;
+    height: 88%;
     padding: 5px;
     padding-bottom: 0px;
     border:inset green;
@@ -149,7 +150,8 @@ header {
     width: 20%;
     height: 73%;
     padding: 7px;
-    padding-bottom: 9px; 
+    padding-bottom: 9px;
+    padding-right: 0px;
     top: 1.5%;
     float: left;
     left: 2.5%;
@@ -162,19 +164,19 @@ header {
     width: 97%;
     height: 92%;
     padding: 5px;
-    border:inset green;
+    border: inset green;
 }
 
 .divIcon .bodyBOX2 {
     padding: 0px;
     padding-bottom: 5px;
     border-bottom: transparent;
-    height: 98.7%;
+    border: none;
 }
 
 .intoIcon {
-    padding-bottom: 5%;
-    border-bottom: inset green;
+    padding-bottom: 4%;
+    border: inset green;
     vertical-align: middle;
 }
 
@@ -306,6 +308,8 @@ header {
     background-color: #1F1B1C;
     width: 28%;
     height: 41%;
+    max-width: 391.717px;
+    max-height: 263.65px;
     padding: 7px;
     padding-bottom: 0px;
     top: 18%;
