@@ -172,6 +172,7 @@ header {
     padding-bottom: 5px;
     border-bottom: transparent;
     border: none;
+    height: auto;
 }
 
 .intoIcon {
@@ -222,6 +223,8 @@ header {
     padding-right: 8px;
     margin-right: 1%;
     margin-top: 1%;
+    max-width: 149.9px;
+    max-height: 135.2px;
 }
 
 #divCo .bodyBOX1 .bodyBOX2 {
@@ -311,7 +314,7 @@ header {
     max-width: 391.717px;
     max-height: 263.65px;
     padding: 7px;
-    padding-bottom: 0px;
+    padding-bottom: 3px;
     top: 18%;
 }
 
@@ -339,6 +342,11 @@ header {
 .Photo .bodyBOX2 img {
     width: 49%;
     float: left;
+}
+
+#divSM .Photo .bodyBOX2 img {
+    max-width: 179.75px;
+    max-height: 235.667px;
 }
 
 .Photo2 .bodyBOX2 img {
