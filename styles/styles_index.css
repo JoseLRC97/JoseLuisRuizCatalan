@@ -70,6 +70,10 @@ header {
     background-size: cover;
 }
 
+#divSM, #divEs, #divCo, #divEx, #divEst {
+    background-image: url(images/divPAG.jpg);
+}
+
 #divIni .presentation {
     color: white;
     position: relative;
