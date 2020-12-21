@@ -321,7 +321,7 @@ header {
     background-color: #1F1B1C;
     left: -0.7%; 
     width: 24%;
-    height: 26.5%;
+    height: auto;
     padding: 7px;
     padding-bottom: 0px;
     top: 23%;
@@ -334,7 +334,9 @@ header {
 }
 
 .Photo2 .bodyBOX2 {
-    width: 95.5%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
 }
 
 .Photo .bodyBOX2 img {
@@ -349,11 +351,13 @@ header {
 #divEx .Photo {
     top: 15%;
     width: 20%;
-    height: 44%;
+    height: auto;
 }
 
 #divEx .Photo .bodyBOX2 {
-    width: 94%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
 }
 
 #divEx .Photo .bodyBOX2 img {
