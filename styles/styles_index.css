@@ -332,6 +332,7 @@ header {
 
 .Photo .bodyBOX2 {
     width: 95.5%;
+    padding-right: 3px;
 }
 
 .Photo2 .bodyBOX2 {
@@ -400,4 +401,23 @@ header {
 
 .anim-TypeWriterInfi {
     animation: TypeWriter 1s steps(1) 1s infinite normal both;
+}
+
+.divPag {
+    overflow: auto;
+}
+
+#divSM .bodyBOX1 .bodyBOX2 {
+    overflow: auto;
+}
+
+#divSM .Photo {
+    width: auto;
+    height: auto;
+}
+
+#divSM .Photo .bodyBOX2 {
+    overflow: hidden;
+    width: auto;
+    height: auto;
 }
