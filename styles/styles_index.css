@@ -345,6 +345,11 @@ header {
     float: left;
 }
 
+#divSM .Photo .bodyBOX2 img {
+    max-width: 179.75px;
+    max-height: 235.667px;
+}
+
 #divSM .Photo {
     max-width: 391.717px;
     max-height: 263.65px;
